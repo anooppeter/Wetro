@@ -16067,7 +16067,7 @@ html[dir="rtl"] .bahri-tab-controls ul li {
     left: 0;
     width: 160px;
     height: 5px;
-    background-color: #D8A72E;
+    
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
@@ -16326,7 +16326,7 @@ html[dir="rtl"] .bahri-tab-controls ul li {
         position: absolute;
         height: 60px;
         width: 5px;
-        background-color: #D8A72E;
+       
         content: " ";
         margin: 0 auto;
         margin-top: -96px;
@@ -17901,7 +17901,7 @@ div[data-captcha-container] .form-control.is-invalid + span + span[data-captcha-
     left: 0;
     width: 160px;
     height: 5px;
-    background-color: #D8A72E;
+    
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
