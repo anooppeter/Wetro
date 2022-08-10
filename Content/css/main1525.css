@@ -4626,7 +4626,7 @@ pre code {
 }
 @media (min-width: 1150px) {
     .container {
-        max-width: 960px;
+        max-width: 1535px;
     }
 }
 @media (min-width: 1200px) {
@@ -10140,6 +10140,9 @@ button.bg-dark:hover {
 }
 .bg-white {
     background-color: #fff !important;
+}
+.bg-dark{
+    background-color: #000 !important
 }
 .bg-transparent {
     background-color: transparent !important;
