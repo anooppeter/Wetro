@@ -17475,7 +17475,7 @@ div[data-captcha-container] .form-control.is-invalid + span + span[data-captcha-
     align-items: flex-end;
 }
 .owl-dots-custom .owl-dots-custom-container .owl-dots-item {
-    width: 270px;
+    width: 275px;
     cursor: pointer;
     text-transform: uppercase;
     position: relative;
@@ -17965,7 +17965,7 @@ div[data-captcha-container] .form-control.is-invalid + span + span[data-captcha-
         position: absolute;
         height: 60px;
         width: 5px;
-        background-color: #D8A72E;
+        
         content: " ";
         margin: 0 auto;
         margin-top: -96px;
