@@ -4706,11 +4706,11 @@
      width: auto;
  }
  
- .wpcf7 input[type="checkbox"],
+ /* .wpcf7 input[type="checkbox"],
  .wpcf7 input[type="radio"] {
      width: auto;
      display: inline;
- }
+ } */
  
  .wpcf7 .wpcf7-form-control .wpcf7-list-item {
      display: block;
