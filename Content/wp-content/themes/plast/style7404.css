@@ -1,0 +1,63 @@
+/*
+Theme Name: Plast
+Author: Codehunt
+
+*/
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+
+.screen-reader-response, .wpcf7-not-valid-tip,.wpcf7-response-output{
+    display: none !important;
+}
+.wpcf7-not-valid{
+    border-color: red !important;
+}
+
+h1,h2,h3 {
+	margin: 0;
+}
+
+
+
+@media only screen and (max-width : 900px) {
+	h1 {
+		font-size: 24px;
+	}
+
+	h2{
+		font-size: 20px;
+	}
+
+	h3 {
+		font-size: 16px;
+	}
+}
+
+.text a {
+	font-weight: bold;
+	color: #FFC435;
+}
+
+.contacts-form .cf7sr-g-recaptcha {
+	position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+@media only screen and (max-width : 500px) {
+	.contacts-form .cf7sr-g-recaptcha {
+		transform: scale(0.5);
+		transform-origin: bottom right;
+	}
+}
+
+.form-submit {
+	pointer-events: none;
+}
+
+
+.wpcf7-form-control {
+	pointer-events: auto;
+}
