@@ -1,5 +1,4 @@
-// coding with nick
-// vars
+
 'use strict'
 var testim = document.getElementById("testim"),
     testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
@@ -40,7 +39,7 @@ window.onload = function () {
             playSlide(currentSlide += 1);
         }, testimSpeed)
     }
-// coding with nick
+
     testimleftArrow.addEventListener("click", function () {
         playSlide(currentSlide -= 1);
     })
