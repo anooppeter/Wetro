@@ -20230,16 +20230,16 @@ div[data-captcha-container] .form-control.is-invalid + span + span[data-captcha-
 .careers-page .comp-row {
     display: none !important;
 }
-.careers_testimonials .careers_testimonials-title {
+.careers_testimonial .careers_testimonial-title {
     text-align: center;
     font-size: 40px;
     color: #003c71;
 }
-.careers_testimonials .careers__testimonials-carousel {
+.careers_testimonial .careers__testimonials-carousel {
     position: relative;
 }
-.careers_testimonials .careers__testimonials-carousel .owl-nav-next,
-.careers_testimonials .careers__testimonials-carousel .owl-nav-prev {
+.careers_testimonial .careers__testimonials-carousel .owl-nav-next,
+.careers_testimonial .careers__testimonials-carousel .owl-nav-prev {
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -20262,22 +20262,22 @@ div[data-captcha-container] .form-control.is-invalid + span + span[data-captcha-
     z-index: 9;
     cursor: pointer;
 }
-.careers_testimonials .careers__testimonials-carousel .owl-nav-prev {
+.careers_testimonial .careers__testimonials-carousel .owl-nav-prev {
     left: 63px;
 }
-.careers_testimonials .careers__testimonials-carousel .owl-nav-next {
+.careers_testimonial .careers__testimonials-carousel .owl-nav-next {
     right: 63px;
 }
-.careers_testimonials .careers__testimonials-carousel .owl-stage {
+.careers_testimonial .careers__testimonials-carousel .owl-stage {
     margin: 0 4.5em;
 }
-.careers_testimonials .careers__testimonials-carousel .careers_testimonials-carousel-owl {
+.careers_testimonial .careers__testimonials-carousel .careers_testimonial-carousel-owl {
     margin-top: 4em;
 }
-.careers_testimonials
+.careers_testimonial
     .careers__testimonials-carousel
-    .careers_testimonials-carousel-owl
-    .careers_testimonials-carousel-owl-item {
+    .careers_testimonial-carousel-owl
+    .careers_testimonial-carousel-owl-item {
     max-width: 464px;
     position: relative;
     display: -webkit-box;
@@ -20291,16 +20291,16 @@ div[data-captcha-container] .form-control.is-invalid + span + span[data-captcha-
     align-items: center;
     margin: 0 6em;
 }
-.careers_testimonials
+.careers_testimonial
     .careers__testimonials-carousel
-    .careers_testimonials-carousel-owl
-    .careers_testimonials-carousel-owl-item.odd {
+    .careers_testimonial-carousel-owl
+    .careers_testimonial-carousel-owl-item.odd {
     margin-top: 6em;
 }
-.careers_testimonials
+.careers_testimonial
     .careers__testimonials-carousel
-    .careers_testimonials-carousel-owl
-    .careers_testimonials-carousel-owl-item
+    .careers_testimonial-carousel-owl
+    .careers_testimonial-carousel-owl-item
     .line {
     position: absolute;
     height: 160px;
@@ -20313,47 +20313,47 @@ div[data-captcha-container] .form-control.is-invalid + span + span[data-captcha-
     top: 36%;
     left: 2em;
 }
-.careers_testimonials
+.careers_testimonial
     .careers__testimonials-carousel
-    .careers_testimonials-carousel-owl
-    .careers_testimonials-carousel-owl-item
-    .careers_testimonials-carousel-owl-item-img {
+    .careers_testimonial-carousel-owl
+    .careers_testimonial-carousel-owl-item
+    .careers_testimonial-carousel-owl-item-img {
     width: 100%;
 }
-.careers_testimonials
+.careers_testimonial
     .careers__testimonials-carousel
-    .careers_testimonials-carousel-owl
-    .careers_testimonials-carousel-owl-item
-    .careers_testimonials-carousel-owl-item-content {
+    .careers_testimonial-carousel-owl
+    .careers_testimonial-carousel-owl-item
+    .careers_testimonial-carousel-owl-item-content {
     padding: 1em 4em;
 }
-.careers_testimonials
+.careers_testimonial
     .careers__testimonials-carousel
-    .careers_testimonials-carousel-owl
-    .careers_testimonials-carousel-owl-item
-    .careers_testimonials-carousel-owl-item-content
-    .careers_testimonials-carousel-owl-item-title {
+    .careers_testimonial-carousel-owl
+    .careers_testimonial-carousel-owl-item
+    .careers_testimonial-carousel-owl-item-content
+    .careers_testimonial-carousel-owl-item-title {
     font-size: 24px;
     color: #003c71;
 }
-.careers_testimonials
+.careers_testimonial
     .careers__testimonials-carousel
-    .careers_testimonials-carousel-owl
-    .careers_testimonials-carousel-owl-item
-    .careers_testimonials-carousel-owl-item-content
-    .careers_testimonials-carousel-owl-item-subtitle {
+    .careers_testimonial-carousel-owl
+    .careers_testimonial-carousel-owl-item
+    .careers_testimonial-carousel-owl-item-content
+    .careers_testimonial-carousel-owl-item-subtitle {
     font-size: 16px;
 }
-.careers_testimonials
+.careers_testimonial
     .careers__testimonials-carousel
-    .careers_testimonials-carousel-owl
-    .careers_testimonials-carousel-owl-item
-    .careers_testimonials-carousel-owl-item-content
-    .careers_testimonials-carousel-owl-item-description {
+    .careers_testimonial-carousel-owl
+    .careers_testimonial-carousel-owl-item
+    .careers_testimonial-carousel-owl-item-content
+    .careers_testimonial-carousel-owl-item-description {
     font-size: 16px;
 }
-[dir="rtl"] .careers_testimonials .owl-nav-next i,
-[dir="rtl"] .careers_testimonials .owl-nav-prev i {
+[dir="rtl"] .careers_testimonial .owl-nav-next i,
+[dir="rtl"] .careers_testimonial .owl-nav-prev i {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
@@ -20361,76 +20361,76 @@ div[data-captcha-container] .form-control.is-invalid + span + span[data-captcha-
     top: -130px !important;
 }
 @media (max-width: 1113.98px) {
-    .careers_testimonials .careers_testimonials-title {
+    .careers_testimonial .careers_testimonial-title {
         margin-top: 1.5em;
     }
-    .careers_testimonials .careers__testimonials-carousel {
+    .careers_testimonial .careers__testimonials-carousel {
         position: relative;
     }
-    .careers_testimonials .careers__testimonials-carousel .owl-nav-next,
-    .careers_testimonials .careers__testimonials-carousel .owl-nav-prev {
+    .careers_testimonial .careers__testimonials-carousel .owl-nav-next,
+    .careers_testimonial .careers__testimonials-carousel .owl-nav-prev {
         display: none;
     }
-    .careers_testimonials .careers__testimonials-carousel .owl-stage {
+    .careers_testimonial .careers__testimonials-carousel .owl-stage {
         margin: 0;
     }
-    .careers_testimonials
+    .careers_testimonial
         .careers__testimonials-carousel
-        .careers_testimonials-carousel-owl
-        .careers_testimonials-carousel-owl-item {
+        .careers_testimonial-carousel-owl
+        .careers_testimonial-carousel-owl-item {
         max-width: 760px;
         margin: 0 1em;
     }
-    .careers_testimonials
+    .careers_testimonial
         .careers__testimonials-carousel
-        .careers_testimonials-carousel-owl
-        .careers_testimonials-carousel-owl-item.odd {
+        .careers_testimonial-carousel-owl
+        .careers_testimonial-carousel-owl-item.odd {
         margin-top: 0;
     }
-    .careers_testimonials
+    .careers_testimonial
         .careers__testimonials-carousel
-        .careers_testimonials-carousel-owl
-        .careers_testimonials-carousel-owl-item
+        .careers_testimonial-carousel-owl
+        .careers_testimonial-carousel-owl-item
         .line {
         display: none !important;
     }
-    .careers_testimonials
+    .careers_testimonial
         .careers__testimonials-carousel
-        .careers_testimonials-carousel-owl
-        .careers_testimonials-carousel-owl-item
-        .careers_testimonials-carousel-owl-item-img {
+        .careers_testimonial-carousel-owl
+        .careers_testimonial-carousel-owl-item
+        .careers_testimonial-carousel-owl-item-img {
         width: 100%;
     }
-    .careers_testimonials
+    .careers_testimonial
         .careers__testimonials-carousel
-        .careers_testimonials-carousel-owl
-        .careers_testimonials-carousel-owl-item
-        .careers_testimonials-carousel-owl-item-content {
+        .careers_testimonial-carousel-owl
+        .careers_testimonial-carousel-owl-item
+        .careers_testimonial-carousel-owl-item-content {
         padding: 1em 4em;
     }
-    .careers_testimonials
+    .careers_testimonial
         .careers__testimonials-carousel
-        .careers_testimonials-carousel-owl
-        .careers_testimonials-carousel-owl-item
-        .careers_testimonials-carousel-owl-item-content
-        .careers_testimonials-carousel-owl-item-title {
+        .careers_testimonial-carousel-owl
+        .careers_testimonial-carousel-owl-item
+        .careers_testimonial-carousel-owl-item-content
+        .careers_testimonial-carousel-owl-item-title {
         font-size: 24px;
         color: #003c71;
     }
-    .careers_testimonials
+    .careers_testimonial
         .careers__testimonials-carousel
-        .careers_testimonials-carousel-owl
-        .careers_testimonials-carousel-owl-item
-        .careers_testimonials-carousel-owl-item-content
-        .careers_testimonials-carousel-owl-item-subtitle {
+        .careers_testimonial-carousel-owl
+        .careers_testimonial-carousel-owl-item
+        .careers_testimonial-carousel-owl-item-content
+        .careers_testimonial-carousel-owl-item-subtitle {
         font-size: 16px;
     }
-    .careers_testimonials
+    .careers_testimonial
         .careers__testimonials-carousel
-        .careers_testimonials-carousel-owl
-        .careers_testimonials-carousel-owl-item
-        .careers_testimonials-carousel-owl-item-content
-        .careers_testimonials-carousel-owl-item-description {
+        .careers_testimonial-carousel-owl
+        .careers_testimonial-carousel-owl-item
+        .careers_testimonial-carousel-owl-item-content
+        .careers_testimonial-carousel-owl-item-description {
         font-size: 16px;
     }
     #fleet-detail .section__slider-carousel-owl-item-content-title:before {
@@ -20438,56 +20438,56 @@ div[data-captcha-container] .form-control.is-invalid + span + span[data-captcha-
     }
 }
 @media only screen and (max-width: 1024px) {
-    .careers_testimonials
+    .careers_testimonial
         .careers__testimonials-carousel
-        .careers_testimonials-carousel-owl
-        .careers_testimonials-carousel-owl-item {
+        .careers_testimonial-carousel-owl
+        .careers_testimonial-carousel-owl-item {
         max-width: 760px;
     }
-    .careers_testimonials
+    .careers_testimonial
         .careers__testimonials-carousel
-        .careers_testimonials-carousel-owl
-        .careers_testimonials-carousel-owl-item
+        .careers_testimonial-carousel-owl
+        .careers_testimonial-carousel-owl-item
         .line {
         top: 35.5em;
     }
 }
 @media only screen and (max-width: 768px) {
-    .careers_testimonials
+    .careers_testimonial
         .careers__testimonials-carousel
-        .careers_testimonials-carousel-owl
-        .careers_testimonials-carousel-owl-item {
+        .careers_testimonial-carousel-owl
+        .careers_testimonial-carousel-owl-item {
         max-width: 500px;
     }
-    .careers_testimonials
+    .careers_testimonial
         .careers__testimonials-carousel
-        .careers_testimonials-carousel-owl
-        .careers_testimonials-carousel-owl-item
+        .careers_testimonial-carousel-owl
+        .careers_testimonial-carousel-owl-item
         .line {
         top: 21.5em;
     }
 }
 @media only screen and (max-width: 425px) {
-    .careers_testimonials
+    .careers_testimonial
         .careers__testimonials-carousel
-        .careers_testimonials-carousel-owl
-        .careers_testimonials-carousel-owl-item {
+        .careers_testimonial-carousel-owl
+        .careers_testimonial-carousel-owl-item {
         max-width: 270px;
     }
-    .careers_testimonials
+    .careers_testimonial
         .careers__testimonials-carousel
-        .careers_testimonials-carousel-owl
-        .careers_testimonials-carousel-owl-item
+        .careers_testimonial-carousel-owl
+        .careers_testimonial-carousel-owl-item
         .line {
         top: 13em;
         left: 0.3em;
         height: 40px;
     }
-    .careers_testimonials
+    .careers_testimonial
         .careers__testimonials-carousel
-        .careers_testimonials-carousel-owl
-        .careers_testimonials-carousel-owl-item
-        .careers_testimonials-carousel-owl-item-content {
+        .careers_testimonial-carousel-owl
+        .careers_testimonial-carousel-owl-item
+        .careers_testimonial-carousel-owl-item-content {
         padding: 1em 1em;
     }
 }
