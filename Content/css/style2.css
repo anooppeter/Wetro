@@ -116,7 +116,7 @@
  nav,
  section,
  blockquote {
-     display: block;
+    display: flex;
  }
  
  nav ul {
