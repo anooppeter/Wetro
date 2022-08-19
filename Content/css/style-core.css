@@ -113,10 +113,13 @@ figure,
 footer,
 header,
 hgroup,
-nav,
 section,
 blockquote {
 	display: flex;
+}
+
+nav {
+	display: block;
 }
 
 nav ul {
