@@ -110,15 +110,18 @@
  aside,
  dialog,
  figure,
- footer,
  header,
  hgroup,
  nav,
  section,
  blockquote {
+    display: block;
+ }
+
+ footer{
     display: flex;
  }
- 
+
  nav ul {
      list-style: none;
  }
