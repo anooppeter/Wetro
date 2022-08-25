@@ -29,6 +29,7 @@
          
         <link href="../Content/css/style2.css" rel="stylesheet" /> 
         <link href="../Content/css/footer.css" rel="stylesheet" /> 
+        <link href="../Content/css/search.css" rel="stylesheet" /> 
             <link rel='stylesheet' id='dnd-upload-cf7-css'  href='../Content/wp-content/plugins/drag-and-drop-multiple-file-upload-contact-form-7/assets/css/dnd-upload-cf7b364.css?ver=1.3.6.2'  media='all' />
             
             <link rel='stylesheet' id='site-style-css'  href='../Content/wp-content/themes/plast/css/style7404.css?ver=5.9.3'  media='all' />
@@ -179,46 +180,16 @@
                     <a class="navbar-brand ml-5" href="../index.html">
                         <img src="../media/0icinj1k/wetro-logo.jpg" alt="Wetro Logo" />
                     </a>
-                    <div class="container-fluid">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item search mr-5 ml-4 justify-content-center align-items-center d-flex">
-                                <a id="searchCollapse" class="">
-                                    <img src="../Content/img/icons/search.svg" alt="" />
-                                </a>
-                            </li>
-                        </ul>
+                    <ul class="cd-header-buttons ">
+                        <li><a class="cd-search-trigger"  href="#cd-search"><span></span></a></li>
+                    </ul>
+                    <div id="cd-search" class="cd-search">
+                        <form class="form-search" id="searchForm" action="../search-results/search.html" method="get">
+                            <input type="text" value="" name="q" id="q" placeholder="Search...">
+                        </form>
                     </div>
                 </nav>
-                <nav id="navbarSearch" class="navbar navbar-search fixed-top navbar-expand-lg bg-white p-0 navbar-light">
-                    <div class="navbar-sidebar-menu">
-                        <a id="searchClose" class="justify-content-center align-items-center d-flex">
-                            <i class="material-icons">close</i>
-                        </a>
-                    </div>
-                    <a class="navbar-brand ml-5" href="../index.html">
-                        <img src="../media/0icinj1k/wetro-logo.jpg" alt="wetro logo" />
-                    </a>
-                    <div class="divisor mr-3 ml-3"></div>
-                    <div class="container-fluid main">
-                        <ul class="navbar-nav w-100">
-                            <li class="nav-item w-100">
-                                <input
-                                    class="form-control mr-sm-2"
-                                    type="text"
-                                    placeholder="Search..."
-                                    aria-label="Search"
-                                    id="navbar-search-input"
-                                />
-                            </li>
-                            <li class="nav-item search mr-5 ml-4 justify-content-center align-items-center d-flex">
-                                <a class="" id="navbar-search-button" data-redirect-to="../search/search-results/?q=">
-                                    <i class="material-icons">search</i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-        
-                </nav>
+               
 
                 <div class="hero container-fluid bg-dark d-flex align-items-center justify-content-center responsive"
      style="background-repeat: no-repeat; background-size: cover; background-position: center center;"
@@ -437,6 +408,7 @@
             })();
         </script>
         <script src="../Content/js/mainabb6.js?q=20220729123748"></script>
+        <script src="../Content/js/search.js"></script>
         
 
         <script>
