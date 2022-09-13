@@ -4466,7 +4466,7 @@ h1 {
 }
 .h2,
 h2 {
-    font-size: 3.125rem;
+    font-size: 3.1rem;
 }
 .h3,
 h3 {
@@ -11372,7 +11372,7 @@ button.bg-dark:hover {
 }
 .mt-5,
 .my-5 {
-    margin-top: 3rem !important;
+    margin-top: 1rem !important;
 }
 .mr-5,
 .mx-5 {
@@ -11467,7 +11467,7 @@ button.bg-dark:hover {
 }
 .pt-4,
 .py-4 {
-    padding-top: 1.5rem !important;
+    padding-top: 1rem !important;
 }
 .pr-4,
 .px-4 {
