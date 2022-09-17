@@ -17504,7 +17504,7 @@ div[data-captcha-container] .form-control.is-invalid + span + span[data-captcha-
     color: #D8A72E;
 }
 .owl-dots-custom .owl-dots-custom-container .owl-dots-item.active .dot {
-    background-color: #D8A72E;
+    background-color: #800000;
 }
 @-webkit-keyframes drive {
     from {
