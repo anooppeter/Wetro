@@ -15164,7 +15164,7 @@ footer.page-footer .footer_social .icon-facebook {
     opacity: 1;
 }
 .floating-menu .main-menu .ripple.bordered a:before {
-    border-color: #D8A72E
+    border-color: #800000
     ;
 }
 .floating-menu .main-menu .ripple.bordered a span {
@@ -15189,8 +15189,8 @@ footer.page-footer .footer_social .icon-facebook {
     color: #D8A72E;
 }
 .floating-menu .main-menu a.active:before {
-    background-color: #D8A72E;
-    border: 4px solid #D8A72E;
+    background-color: #800000;
+    border: 4px solid #800000;
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
 }
@@ -15200,8 +15200,8 @@ footer.page-footer .footer_social .icon-facebook {
     width: 10px;
     height: 10px;
     left: -1px;
-    background-color: #efefef;
-    border: 1px solid #efefef;
+    background-color:#800000;
+    border: 1px solid #800000;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
