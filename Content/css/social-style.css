@@ -1,8 +1,9 @@
 
   .middle{
     position: absolute;
+    
     top: 122%;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
     width: 100%;
     text-align: center;
     right: -7%;
