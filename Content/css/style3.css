@@ -56,7 +56,7 @@ body{
     right: 10px;
 }
 .testim .arrow:hover{
-    color: #ea830e;
+    color: #EBC900;
 }
 .testim .dots{
     text-align: center;
@@ -82,8 +82,8 @@ body{
 }
 .testim .dots .dot.active,
 .testim .dots .dot:hover{
-background: #ea830e;
-border-color: #ea830e;
+background: #EBC900;
+border-color: #EBC900;
 }
 
 .testim .dots .dot.active{
@@ -118,7 +118,7 @@ border-color: #ea830e;
     border-radius: 50%;
 }
 .testim .cont div h2{
-    color: #D8A72E;
+    color: #EBC900;
     font-size: 1.2em;
     margin: 15px 0;
 }
@@ -156,10 +156,10 @@ border-color: #ea830e;
         box-shadow: 0px 0px 10px 5px #eee;
     }
     70% {
-        box-shadow: 0px 0px 10px 5px #ea830e;
+        box-shadow: 0px 0px 10px 5px #EBC900;
     }
     100% {
-        box-shadow: 0px 0px 0px 0px #ea830e;
+        box-shadow: 0px 0px 0px 0px #EBC900;
     }
 }
 
