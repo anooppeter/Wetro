@@ -1,12 +1,12 @@
 
   .middle{
-    position: absolute;
+    /* position: absolute; */
     
-    top: 122%;
+    /* top: 122%; */
     /* transform: translateY(-50%); */
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
-    right: -7%;
+    /* right: -7%; */
   }
   .social-btn{
     display: inline-block;
