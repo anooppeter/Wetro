@@ -14572,6 +14572,10 @@ a.btn-wetro {
 }
 #navbarMain.navbar a.navbar-brand img {
     width: 120px;
+    position: absolute;
+
+    right: 105px;
+    top: 25px;
 }
 #navbarMain.navbar ul.navbar-nav li.nav-item a {
     cursor: pointer;
@@ -25969,5 +25973,9 @@ html.menu-visible #content {
 }
 [dir="rtl"] h6 {
     letter-spacing: 0 !important;
+}
+
+#my-logo{
+    position: absolute; top: 12pt; left: 24pt; 
 }
 
