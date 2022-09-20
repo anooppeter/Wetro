@@ -14573,9 +14573,8 @@ a.btn-wetro {
 #navbarMain.navbar a.navbar-brand img {
     width: 120px;
     position: absolute;
-
-    right: 105px;
-    top: 25px;
+    right: 70px;
+    top: 23px;
 }
 #navbarMain.navbar ul.navbar-nav li.nav-item a {
     cursor: pointer;
