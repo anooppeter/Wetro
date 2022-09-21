@@ -10144,6 +10144,13 @@ button.bg-dark:hover {
 }
 .bg-white {
     background-color: #fff !important;
+    /* background-image: url('../../media/0icinj1k/architecture.jpg'); */
+    /* background-size: cover; */
+/* background-position: top; */
+/* background-attachment: fixed;
+height: 768px;
+width: 100%; */
+/* position: relative; */
 }
 .bg-dark{
     background-image: url(../img/bodyBG.jpg);
@@ -17868,7 +17875,7 @@ div[data-captcha-container] .form-control.is-invalid + span + span[data-captcha-
 .home__investors {
     max-width: 1440px;
     position: relative;
-    padding: 80px 0 2.5em 0 !important;
+    padding: 50px 0 2.5em 0 !important;
 }
 .home__investors[dir="rtl"] .home__investors-items .home__investors-items-item a i {
     -webkit-transform: rotate(180deg);
@@ -17962,7 +17969,7 @@ div[data-captcha-container] .form-control.is-invalid + span + span[data-captcha-
 }
 @media (max-width: 1113.98px) {
     .home__investors {
-        padding: 80px 0 0 0 !important;
+        padding: 50px 0 0 0 !important;
     }
     .home__investors .home__investors-detail .home__investors-detail-inner {
         padding: 60px 24px 40px !important;
@@ -25977,4 +25984,29 @@ html.menu-visible #content {
 #my-logo{
     position: absolute; top: 12pt; left: 24pt; 
 }
+.img-wrapper{
+    position: relative;
+}
 
+.img-wrapper img {
+    width: 1440px;
+    height: 500px;
+  }
+  
+  .img-wrapper .overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .about-sec-second-ovarlay {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #fff;
+    padding: 80px 40px 80px 80px;
+  }
