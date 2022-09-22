@@ -17782,6 +17782,7 @@ div[data-captcha-container] .form-control.is-invalid + span + span[data-captcha-
     .home__bahri-units p {
         text-align: left;
         padding: 0 2em;
+        margin-left: -25px;
     }
     .home__bahri-units .home__bahri-units_categories {
         -webkit-box-orient: vertical !important;
@@ -17893,7 +17894,7 @@ div[data-captcha-container] .form-control.is-invalid + span + span[data-captcha-
     opacity: 0;
 }
 .home__investors .btn-wetro {
-    opacity: 0;
+    opacity: 1;
 }
 .home__investors .home__investors-detail {
     display: -webkit-box;
