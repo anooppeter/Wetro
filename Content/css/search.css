@@ -120,6 +120,8 @@
     /* hide text */
     color: transparent;
     z-index: 3;
+    left: 9px;
+    bottom: 9px;
   }
   .cd-search-trigger::before, .cd-search-trigger::after {
     /* search icon */
