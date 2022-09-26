@@ -26011,3 +26011,51 @@ html.menu-visible #content {
     background-color: #fff;
     padding: 80px 40px 80px 80px;
   }
+
+  .block-button {
+    display: block;
+    width: 100%;
+    border: 2px solid #EBC900
+    ;
+    border-radius: 25px;
+    font-size: 12px;
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 16px 37px 15px 37px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 14px;
+    color: #fff;
+    outline: 0 !important;
+    max-height: 48px;
+    margin-bottom: 13px;
+  }
+.block-button .spinner-border {
+    display: none;
+}
+.block-button.is-loading {
+    background-color: #EBC900
+    ;
+}
+.block-button.is-loading .spinner-border {
+    display: inline-block;
+}
+.block-button.is-loading .text {
+    display: none;
+}
+.block-button.is-disabled {
+    opacity: 0.6;
+}
+.block-button:hover {
+    background-color: #EBC900
+    ;
+    border-color: transparent;
+    color: #fff;
+    outline: 0;
+}
+.block-button.text-blue {
+    color: #003c71 !important;
+}
+a.block-button {
+    display: inline-block !important;
+}
