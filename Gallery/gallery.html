@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <head>
@@ -44,7 +43,8 @@
 
             gtag("config", "UA-67254620-1");
         </script> -->
-        
+        <!--custom css-->
+        <link rel="stylesheet" href="../Content/css/moreProducts.css">
     </head>
     <body>
         <div class="wrapper">
@@ -214,11 +214,51 @@
 
 
 
+<div class="container">
+    <div class="image-container">
+        <div class="image"><img src="../media/0icinj1k/IMG-20220925-WA0000.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/IMG-20220925-WA0001.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/IMG-20220925-WA0002.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/IMG-20220925-WA0003.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/IMG-20220925-WA0004.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/IMG-20220925-WA0005.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/IMG-20220919-WA0006.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/IMG-20220925-WA0007.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/banner-tank.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/Blower.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/Custom-1920w.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/Damper.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/damper-new(1).jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/duck.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/New-Site-Service.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/oil-and-gas-rig-at-port-2022-03-10-01-41-13-utc.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/platforms.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/scrubber.jpg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/st-tank2.jpeg" alt="" srcset=""></div>
+        <div class="image"><img src="../media/0icinj1k/st-tank.jpeg" alt="" srcset=""></div>
+    </div>
+
+    <div class="popup-image">
+        <span>&times;</span>
+        <img src="../media/0icinj1k/IMG-20220925-WA0000.jpg" alt="" srcset="">
+    </div>
+</div>
 
 
 
 
+<script>
+    document.querySelectorAll('.image-container img').forEach(image =>{
+        image.onclick = ()=>{
+            document.querySelector('.popup-image').style.display = 'block';
+            document.querySelector('.popup-image img').src = image.getAttribute('src');
+        }
+    });
 
+    document.querySelector('.popup-image span').onclick = () =>{
+        document.querySelector('.popup-image').style.display = 'none';
+    }
+</script>
 <!-- <div class="hero-description container-fluid comp3 bg-gray p-0 ">
         <h2 class="text-blue compText">
             About Wetrocomposite Products
