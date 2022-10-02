@@ -5537,6 +5537,15 @@ left:0%;
   width: 40%;
   opacity: 0.9;
 }
+.about-sec-secon-ovarlay {
+  /* position: absolute; */
+  bottom: 10px;
+  right: 10px;
+  /* background-color: #fff; */
+  padding: 39px 24px 50px 77px;;
+  width: 40%;
+  opacity: 0.9;
+}
 .power-sec-second-ovarlay {
   position: absolute;
   bottom: 10px;
@@ -6467,6 +6476,9 @@ opacity: 0.8;
   .about-sec-second-ovarlay {
     width: 60%;
   }
+  .about-sec-secon-ovarlay {
+    width: 60%;
+  }
   .power-sec-second-ovarlay {
     width: 60%;
   }
@@ -6805,6 +6817,11 @@ opacity: 0.8;
     width: 85%;
     padding: 0px 0px 0px 0px;
   }
+  .about-sec-secon-ovarlay {
+    /* position: absolute; */
+    width: 85%;
+    padding: 0px 0px 0px 0px;
+  }
   .power-sec-second-ovarlay {
     width: 80%;
     
@@ -6813,6 +6830,9 @@ opacity: 0.8;
     font-size: 24px;
   }
   .about-sec-second-ovarlay h6 {
+    font-size: 24px;
+  }
+  .about-sec-secon-ovarlay h6 {
     font-size: 24px;
   }
   .power-sec-second-ovarlay h6 {
@@ -7069,6 +7089,10 @@ font-size: 12px;
     font-size: 18px;
     line-height: 24px;
   }
+  .about-sec-secon-ovarlay h6 {
+    font-size: 18px;
+    line-height: 24px;
+  }
   .power-sec-second-ovarlay h5 {
     font-size: 18px;
     line-height: 24px;
@@ -7081,6 +7105,9 @@ font-size: 12px;
     font-size: medium;
   }
   .about-sec-second-ovarlay ul li{
+    font-size: 12px;
+  }
+  .about-sec-secon-ovarlay ul li{
     font-size: 12px;
   }
 
@@ -7543,4 +7570,49 @@ font-size: 12px;
 
 .c-phone-div p {
   margin-bottom: 0 !important;
+}
+.back-img{
+  
+    background-image: url(../../media/0icinj1k/wet-section.jpg);
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+  
+}
+
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.txt-color1 ul, :local-link{
+  color: #000;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
 }
