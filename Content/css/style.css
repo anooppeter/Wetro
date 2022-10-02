@@ -6809,7 +6809,7 @@ opacity: 0.8;
     height: 899px;
   }
   .service-section-sec-d {
-    height: 899px;
+    height: 1200px;
   }
 
   .service-sec-second-ovarlay {
@@ -7577,7 +7577,7 @@ font-size: 12px;
 .back-img{
   
     background-image: url(../../media/0icinj1k/wet-section.jpg);
-    height: 736px;
+    /* height: 736px; */
     background-size: cover;
     position: relative;
     background-position: center;
@@ -7618,4 +7618,89 @@ font-size: 12px;
     display: block;
     margin-bottom: 20px;
   }
+}
+
+
+
+
+.u-section-1 .u-list-1 {
+	width: 789px;
+	margin: 112px auto 0 20px;
+}
+
+
+
+.u-section-1 .u-repeater-1 {
+	min-height: 251px;
+	grid-auto-columns: calc(33.3333% - 30.6667px);
+	grid-template-columns: calc(33.3333% - 30.6667px) calc(33.3333% - 30.6667px) calc(33.3333% - 30.6667px);
+	grid-gap: 46px 46px;
+}
+
+
+.u-repeater {
+	display: grid;
+	grid-template-columns: repeat(3, 33.33333333%);
+  grid-gap: 46px 46px;
+  padding-bottom: 13px;
+}
+
+.u-tabs:not([class*="u-align-"]), .u-accordion:not([class*="u-align-"]), .u-repeater-item:not([class*="u-align-"]), .u-container-style:not([class*="u-align-"]) {
+	text-align: left;
+}
+
+.u-border-palette-3-light-1, .u-separator-palette-3-light-1::after {
+	border-color: #EBC900;
+	stroke: #EBC900;
+}
+
+.u-border-3, .u-separator-3::after, .u-text.u-border-3, a.u-button-style.u-border-3 {
+	border-width: 3px;
+}
+
+[class*="u-border-"], .u-link[class*="u-border-"] {
+	border-style: solid;
+}
+
+.u-repeater-item {
+	display: flex;
+	position: relative;
+}
+
+.u-shading, .u-overlap.u-overlap-contrast .u-header {
+	color: #ffffff;
+}
+
+.u-body {
+	--theme-sheet-width-xl: 1140px;
+	--theme-sheet-width-lg: 940px;
+	--theme-sheet-width-md: 720px;
+	--theme-sheet-width-sm: 540px;
+	--theme-sheet-width-xs: 340px;
+}
+
+/* .u-body {
+	font-family: 'Open Sans',sans-serif;
+} */
+
+.u-section-1 .u-container-layout-1 {
+	padding: 30px;
+}
+
+.u-container-layout {
+	position: relative;
+	flex: 1;
+	max-width: 100%;
+	transition-duration: inherit;
+}
+
+.u-section-1 .u-text-3 {
+	margin: 20px auto 0 0;
+}
+
+.u-text {
+	word-wrap: break-word;
+	position: relative;
+ 
+  word-break: break-word;
 }
