@@ -6806,7 +6806,10 @@ opacity: 0.8;
   }
 
   .service-section-second-d {
-    height: 500px;
+    height: 899px;
+  }
+  .service-section-sec-d {
+    height: 899px;
   }
 
   .service-sec-second-ovarlay {
@@ -7574,7 +7577,7 @@ font-size: 12px;
 .back-img{
   
     background-image: url(../../media/0icinj1k/wet-section.jpg);
-    height: 600px;
+    height: 736px;
     background-size: cover;
     position: relative;
     background-position: center;
