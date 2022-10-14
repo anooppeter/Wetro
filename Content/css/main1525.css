@@ -17934,7 +17934,7 @@ div[data-captcha-container] .form-control.is-invalid + span + span[data-captcha-
     opacity: 0;
 }
 .home__investors .home__investors-items {
-    padding: 5em 3em 0 3em;
+    padding: 2em 3em 0 3em;
 }
 .home__investors .home__investors-items .home__investors-items-item {
     -webkit-transform: matrix(1, 0, 0, 1, 0, 100);
