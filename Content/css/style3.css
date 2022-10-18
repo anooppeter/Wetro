@@ -101,9 +101,9 @@ border-color: #EBC900;
     padding: 0 0 70px 0;
     opacity: 0;
 }
-.testim .cont > div.inactive{
+/* .testim .cont > div.inactive{
     opacity: 1;
-}
+} */
 .testim .cont > div.active{
     
     position: relative;
